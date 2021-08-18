@@ -1,24 +1,10 @@
-# portfolio
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+My 2nd Portfolio using VueJS!
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Contacts
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Contact Me if you do find any typos or bugs!
+- Bk49#8504 (Discord)
+- DeviousComet (Telegram)
+- deviouscomet465 (Instagram) 
