@@ -1,13 +1,16 @@
 <template>
-  <div class="hello">
-    <h1>Contact Me</h1>
-  </div>
+    <div class="hello">
+        <nav-bar/>
+    </div>
 </template>
 
 <script>
+import NavBar from "../ui/common/navigations/NavBar.vue";
+
 export default {
-  name: "ContactMe",
-  props: {},
+    name: "ContactMe",
+    components: { NavBar },
+    props: {},
 };
 </script>
 
