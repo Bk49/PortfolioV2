@@ -1,15 +1,17 @@
 <template>
     <div class="hello">
         <nav-bar />
+        <custom-footer/>
     </div>
 </template>
 
 <script>
 import NavBar from "../ui/common/navigations/NavBar.vue";
+import CustomFooter from "../ui/common/footer/Footer.vue"
 
 export default {
     name: "Project",
-    components: { NavBar },
+    components: { NavBar, CustomFooter },
     props: {},
 };
 </script>

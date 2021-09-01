@@ -75,7 +75,6 @@ import AboutSection from "@/components/ui/home/about/AboutSection.vue";
 export default {
     components: { NavBar, CustomFooter, NeonHeader, AboutSection },
     name: "Home",
-    props: {},
 };
 </script>
 
