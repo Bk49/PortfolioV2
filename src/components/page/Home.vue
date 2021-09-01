@@ -6,11 +6,12 @@
 
 <script>
 import NavBar from "../ui/common/navigations/NavBar.vue";
+import CustomFooter from "../ui/common/footer/Footer.vue";
+import NeonHeader from "../ui/common/text/header_titles/NeonHeader.vue";
 
 export default {
-    components: { NavBar },
+    components: { NavBar, CustomFooter, NeonHeader },
     name: "Home",
-    props: {},
 };
 </script>
 
