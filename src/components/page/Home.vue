@@ -1,9 +1,12 @@
 <template>
     <div class="hello">
         <nav-bar />
+        <div class="gallery-container">
+            <gallery />
+        </div>
         <div class="about-section">
             <div class="about-header">
-                <neon-header title="About Me" />
+                <neon-header id="about" title="About Me" />
             </div>
             <div class="about-content">
                 <about-section file="construction.svg">
@@ -71,9 +74,10 @@ import NavBar from "../ui/common/navigations/NavBar.vue";
 import CustomFooter from "../ui/common/footer/Footer.vue";
 import NeonHeader from "../ui/common/text/header_titles/NeonHeader.vue";
 import AboutSection from "@/components/ui/home/about/AboutSection.vue";
+import Gallery from "../ui/home/gallery/Gallery.vue";
 
 export default {
-    components: { NavBar, CustomFooter, NeonHeader, AboutSection },
+    components: { NavBar, CustomFooter, NeonHeader, AboutSection, Gallery },
     name: "Home",
 };
 </script>
@@ -94,4 +98,10 @@ export default {
 .about-content {
     padding-top: 5rem;
 }
+
+.gallery-container {
+    display: block;
+}
+
+
 </style>
