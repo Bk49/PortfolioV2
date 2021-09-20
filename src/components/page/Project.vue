@@ -8,7 +8,7 @@
             color="FFC0CB"
             shadowColor="800080"
             gradient="#FFC0CB, #800080"
-            link="/"
+            link="/project/discordbot"
             linkText="Discord Bot Project"
         >
             A discord bot with basic bot commands such as help and avatar.
@@ -22,7 +22,7 @@
             color="26D0CE"
             shadowColor="1A2980"
             gradient="#26D0CE, #1A2980"
-            link="/"
+            link="/project/shopmania"
             linkText="Shopmania Project"
         >
             A shopping application that comes with a cart feature and management
@@ -37,7 +37,7 @@
             color="F7B733"
             shadowColor="FC4A1A"
             gradient="#F7B733, #FC4A1A"
-            link="/"
+            link="/project/foodsavior"
             linkText="Food Savior Project"
         >
             A mobile and tablet prototype application that aims to provide a
@@ -53,7 +53,7 @@
             color="FCEABB"
             shadowColor="F8B500"
             gradient="#FCEABB, #F8B500"
-            link="/"
+            link="/project/initiald"
             linkText="Initial D Project"
         >
             First-ever website created by me and hosted on Neocities
@@ -67,7 +67,7 @@
             color="D3CBB8"
             shadowColor="6D6027"
             gradient="#D3CBB8, #6D6027"
-            link="/"
+            link="/oldportfolio"
             linkText="Old Portfolio Project"
         >
             First-ever personal portfolio created by me and hosted on GitHub
@@ -82,7 +82,7 @@
             color="6DD5FA"
             shadowColor="2980B9"
             gradient="#6DD5FA, #2980B9"
-            link="/"
+            link="/project/jibaboom"
             linkText="Jibaboom Astronomia Project"
         >
             A dynamic hybrid web project aiming to solve the weighted activity
