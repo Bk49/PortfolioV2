@@ -1,9 +1,9 @@
 <template>
     <div class="container">
         <neon-title class="title" title="Eric's Portfolio" />
-        <nav-item v-bind:active="active === 2" title="Contact Me" directory="/contact-me" />
-        <nav-item v-bind:active="active === 1" title="Projects" directory="/project" />
-        <nav-item v-bind:active="active === 0" title="Home" directory="/" />
+        <nav-item title="Contact Me" directory="/contact-me" />
+        <nav-item :active="active" title="Projects" directory="/project" />
+        <nav-item title="Home" directory="/" />
     </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     components: { NavItem, NeonTitle },
     name: "NavBar",
     props: {
-        active: Number,
+        active: Boolean,
     },
 };
 </script>

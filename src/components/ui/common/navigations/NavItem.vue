@@ -1,5 +1,5 @@
 <template>
-    <router-link class="nav" v-bind:to="directory">{{ title }}</router-link>
+    <router-link :class="active ? 'active nav' : 'nav'" :to="directory">{{ title }}</router-link>
 </template>
 
 <script>
@@ -8,6 +8,7 @@ export default {
     props: {
         title: String,
         directory: String,
+        active: Boolean,
     },
 };
 </script>
@@ -32,7 +33,7 @@ export default {
     color: #004fff;
 }
 
-.router-link-active {
+.router-link-active, .active {
     color: #31afd4;
     border-bottom: solid 4px #31afd4;
 }
