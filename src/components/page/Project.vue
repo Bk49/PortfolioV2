@@ -67,7 +67,7 @@
             color="D3CBB8"
             shadowColor="6D6027"
             gradient="#D3CBB8, #6D6027"
-            link="/oldportfolio"
+            link="/project/oldportfolio"
             linkText="Old Portfolio Project"
         >
             First-ever personal portfolio created by me and hosted on GitHub
@@ -105,7 +105,3 @@ export default {
     props: {},
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
