@@ -41,9 +41,8 @@
             linkText="Food Savior Project"
         >
             A mobile and tablet prototype application that aims to provide a
-            better and more efficient process in the event of food donation
-            drives
-            <br /><br />
+            better and more efficient process in the event of food <br />
+            donation drives <br /><br />
             Technologies : MarvelApp
         </project-item>
         <project-item
